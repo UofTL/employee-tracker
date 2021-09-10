@@ -1,6 +1,6 @@
 # note-taker-with-express
-Live URL:https://mysterious-depths-83071.herokuapp.com/
-Repo URL:https://github.com/UofTL/note-taker-with-express.git
+
+Repo URL:https://github.com/UofTL/employee-tracker.git
 
 This app create an interfaces that make it easy for non-developers to view and interact with information stored in databases. This command-line application wil help to manage a company's database of his employees.
 
