@@ -1,11 +1,11 @@
 //Dependencies
-const inquirer = require("inquirer")
-const mysql = require("mysql")
+const inquirer = require("inquirer");
+const mysql = require("mysql2");
 const cTable = require('console.table');
 
 const connection = mysql.createConnection({
     host: "localhost",
-    port: 5001,
+    port: 3306,
     user: "root",
     password: "Rolande",
     database: "employee_trackerDB"
@@ -209,12 +209,12 @@ function addRole() {
         inquirer.prompt([{
                 name: "Title",
                 type: "input",
-                message: "What is the roles Title?"
+                message: "What is the employee Title?"
             },
             {
                 name: "Salary",
                 type: "input",
-                message: "What is the Salary?"
+                message: "What is the employee Salary?"
 
             }
         ]).then(function(res) {
