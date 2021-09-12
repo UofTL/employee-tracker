@@ -4,7 +4,7 @@ Repo URL:https://github.com/UofTL/employee-tracker.git
 
 This app create an interfaces that make it easy for non-developers to view and interact with information stored in databases. This command-line application wil help to manage a company's database of his employees.
 
-* For a video on using the app click [here.](https://screencast-o-matic.com/watch/crQ6VBVQdkC)
+* For a video on using the app click [here.](https://screencast-o-matic.com/watch/crQlbhVQNO5)
 ## User Story
 
 ```md
